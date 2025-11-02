@@ -17,10 +17,10 @@ st.caption("从 GitHub 读取带词性标注的文本，通过布尔逻辑 (AND/
 # 在这里内置你的 GitHub RAW 文本地址
 # ------------------------
 GITHUB_FILES = {
-    "文本一.txt": "https://raw.githubusercontent.com/Dittonal/streamlit_search_txt/main/text1.txt",
-    "文本二.txt": "https://raw.githubusercontent.com/Dittonal/streamlit_search_txt/main/text2.txt",
-    "文本三.txt": "https://raw.githubusercontent.com/Dittonal/streamlit_search_txt/main/text3.txt",
-    "文本四.txt": "https://raw.githubusercontent.com/Dittonal/streamlit_search_txt/main/text4.txt",
+    "路遥《平凡的世界》.txt": "https://raw.githubusercontent.com/Dittonal/streamlit_search_txt/main/路遥《平凡的世界》_pos.txt",
+    "老舍《骆驼祥子》.txt": "https://raw.githubusercontent.com/Dittonal/streamlit_search_txt/main/老舍《骆驼祥子》_pos.txt",
+    "王安忆《长恨歌》.txt": "https://raw.githubusercontent.com/Dittonal/streamlit_search_txt/main/王安忆《长恨歌》_pos.txt",
+    "张爱玲《半生缘》.txt": "https://raw.githubusercontent.com/Dittonal/streamlit_search_txt/main/张爱玲《半生缘》_pos.txt",
 }
 
 @st.cache_data(show_spinner=False)
