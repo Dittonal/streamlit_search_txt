@@ -8,9 +8,9 @@ import pandas as pd
 import streamlit as st
 from collections import defaultdict
 
-st.set_page_config(page_title="中文文本检索 Dashboard", layout="wide", page_icon="🔎")
+st.set_page_config(page_title="检索 Dashboard", layout="wide")
 
-st.title("🔎 中文文本检索 Dashboard")
+# st.title("🔎 中文文本检索 Dashboard")
 st.caption("从 GitHub 读取带词性标注的文本，通过布尔逻辑 (AND/OR/NOT) 检索句子。")
 
 # ------------------------
