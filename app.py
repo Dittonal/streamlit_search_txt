@@ -128,7 +128,7 @@ summary = pd.DataFrame({
     "文件": list(GITHUB_FILES.keys()),
     "匹配句子数": [match_counts.get(n, 0) for n in GITHUB_FILES.keys()]
 })
-st.bar_chart(summary.set_index("文件"))
+# st.bar_chart(summary.set_index("文件"))
 
 st.markdown("### 检索结果（含词性）")
 if rows:
